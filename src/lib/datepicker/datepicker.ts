@@ -32,13 +32,13 @@ import { ComponentPortal } from '../core/portal/portal';
 import { OverlayState } from '../core/overlay/overlay-state';
 import { Dir } from '../core/rtl/dir';
 import { PositionStrategy } from '../core/overlay/position/position-strategy';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 import { DateAdapter } from '../core/datetime/index';
 import { ESCAPE } from '../core/keyboard/keycodes';
 import { Md2Calendar } from './calendar';
 import { DateLocale } from './date-locale';
 import { DateUtil } from './date-util';
-import 'rxjs/add/operator/first';
+
 
 /** Change event object emitted by Md2Select. */
 export class Md2DateChange {

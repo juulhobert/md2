@@ -7,8 +7,7 @@ import {
   OverlayConnectionPosition,
   ConnectedOverlayPositionChange, ScrollableViewProperties
 } from './connected-position';
-import {Subject} from 'rxjs/Subject';
-import {Observable} from 'rxjs/Observable';
+import {Subject, Observable} from 'rxjs';
 import {Scrollable} from '../scroll/scrollable';
 
 /**

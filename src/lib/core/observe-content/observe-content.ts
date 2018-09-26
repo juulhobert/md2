@@ -9,8 +9,8 @@ import {
   AfterContentInit,
   Injectable,
 } from '@angular/core';
-import {Subject} from 'rxjs/Subject';
-import 'rxjs/add/operator/debounceTime';
+import {Subject} from 'rxjs';
+
 
 /**
  * Factory that creates a new MutationObserver and allows us to stub it out in unit tests.

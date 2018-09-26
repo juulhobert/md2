@@ -11,7 +11,7 @@ import {InteractivityChecker} from './interactivity-checker';
 import {Platform} from '../platform/platform';
 import {coerceBooleanProperty} from '../coercion/boolean-property';
 
-import 'rxjs/add/operator/first';
+
 
 
 /**

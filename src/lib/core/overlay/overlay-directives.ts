@@ -28,7 +28,7 @@ import {Scrollable} from './scroll/scrollable';
 import {ScrollStrategy} from './scroll/scroll-strategy';
 import {coerceBooleanProperty} from '../coercion/boolean-property';
 import {ESCAPE} from '../keyboard/keycodes';
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 import {ScrollDispatchModule} from './scroll/index';
 
 

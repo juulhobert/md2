@@ -27,8 +27,8 @@ import {
   TemplatePortalDirective
 } from '../core/core';
 import { extendObject } from '../core/util/object-extend';
-import { Subscription } from 'rxjs/Subscription';
-import 'rxjs/add/operator/first';
+import { Subscription } from 'rxjs';
+
 
 export type DialogVisibility = 'initial' | 'visible' | 'hidden';
 export type DialogRole = 'dialog' | 'alertdialog';

@@ -24,7 +24,7 @@ import { OverlayRef } from '../core/overlay/overlay-ref';
 import { OverlayState } from '../core/overlay/overlay-state';
 import { PositionStrategy } from '../core/overlay/position/position-strategy';
 import { TemplatePortal } from '../core';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 import { ColorUtil, Rgba, Hsla, Hsva } from './color-util';
 
 export class SliderPosition {

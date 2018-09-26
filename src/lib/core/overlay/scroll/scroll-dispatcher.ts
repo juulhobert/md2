@@ -1,12 +1,10 @@
 import {ElementRef, Injectable, NgZone, Optional, SkipSelf} from '@angular/core';
 import {Platform} from '../../platform/index';
 import {Scrollable} from './scrollable';
-import {Subject} from 'rxjs/Subject';
-import {Observable} from 'rxjs/Observable';
-import {Subscription} from 'rxjs/Subscription';
-import 'rxjs/add/observable/fromEvent';
-import 'rxjs/add/observable/merge';
-import 'rxjs/add/operator/auditTime';
+import {Subject, Observable, Subscription} from 'rxjs';
+
+
+
 
 
 /** Time in ms to throttle the scrolling events by default. */
